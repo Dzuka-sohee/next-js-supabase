@@ -1,5 +1,4 @@
 import { createClient } from "@supabase/supabase-js";
-import { create } from "domain";
 
 const supabase = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL ?? '',
